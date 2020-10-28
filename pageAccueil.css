@@ -1,0 +1,56 @@
+body{
+	margin: 0px;
+}
+#menu{
+	width: 100%;
+	height: 9%;
+	background-color: #6B8E23;
+	color:black;
+}
+#menu span{
+	color:white;
+}
+#tableAccueil a{
+	color:white;
+}
+#tableAccueil td{
+	padding-left: 40px;
+}
+#tableAccueil a:hover{
+	color:black;
+}
+#tableAccueil{
+	margin-top: -45px;
+	margin-left:53%;
+}
+#contenuTabAdmiEtud{
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-bottom: 0%;
+}
+#etudiantContenu{
+	text-align: right;
+	margin-top: -47%;
+	margin-left: 50%;
+	padding-bottom: 40%;
+}
+#adminiContenu{
+	text-align: left;
+	margin-right:50%;
+	padding-bottom: 40%;
+}
+#titreAdmi{
+	text-align:center;
+	color: red;
+}
+#titreEtud{
+	margin-bottom: 10px;
+	text-align: center;
+	color: blue;
+}
+#seConnecterEnTant h2{
+	text-align: center;
+	color: green;
+	font-style: italic;
+	font-size: 28px;
+}

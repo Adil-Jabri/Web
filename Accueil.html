@@ -1,0 +1,67 @@
+<! Doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="pageAccueil.css">
+		<title>Accueil</title>
+	</head>
+	<body>
+		<div id="menu">
+			<h1><span>H</span>aute <span>E</span>cole <span>L</span>ibre <span>W</span>eb</h1>
+			<table id="tableAccueil">
+				<tr>
+					<td><a href="">Histoire de la HELW</a></td>
+					<td><a href="">S'inscrire</a></td>
+					<td><a href="">Se connecter</a></td>
+					<td><a href="">Contact</a></td>
+					<td><a href="">Aide</a></td>
+				</tr>
+			</table>
+		</div>
+		<div id="seConnecterEnTant">
+			<h2> Se Connecter en tant que ...</h2>
+		</div>
+		<div id="contenuTabAdmiEtud">
+			<div id="adminiContenu"style="background:url('../image/admi3.png');background-size:cover;">
+				<p id="titreAdmi"> Admnistrateur</p>
+			</div>
+			<div id="etudiantContenu" style="background:url('../image/etud.jpg');background-size:cover;">
+				<p id="titreEtud"> Etudiant</p>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+	<body id="bodyDesign">
+		<div id="logoEcole">
+			<p>Haute Ecole Med A</p>
+			<img src="../image/audiRs6.jpg" width="30px;" height="90px">
+		</div>
+		<div id="contenuConnexion">
+			<form action="POST">
+				<div id="backSignIn" style="background:url('../image/fondSignIn.jpg');background-size:cover; height="80px">
+					<p id="signIn">CONNEXION</p>	
+				</div>
+				<div id="connexion">
+					<table id="table">
+						<tr>
+							<td>Nom d'utilisateur :</td><td><input type="text" name="nameUser"><br></td>
+						</tr>
+						<tr>
+							<td>Mot de passe :</td><td><input type="password" name="password"></td>
+						</tr>
+						<tr>
+							<td colspan="2"><p>Pas encore inscrit? <a href="#">S'inscrire</a></p><br></td>
+						</tr>
+						<tr>
+							<td><input type="radio" name="radioUtilisateur" value="admi">Administrateur</td>
+							<td><input type="radio" name="radioUtilisateur" value="etudiant">Etudiant</td>
+						</tr>
+						<tr>
+							<td><input id="submitButton" type="submit" name="submit"></td>
+						</tr>
+					</table>
+				</div>
+			</form>
+		</div>
